@@ -11,6 +11,14 @@
   src: local('MyFont'), url(./fonts/SourceSansPro-Bold.ttf ) format('truetype');
 }
 
+
+@font-face {
+  font-family: 'MyFont';
+  font-weight: 900;
+  src: local('MyFont'), url(./fonts/SourceSansPro-Black.ttf ) format('truetype');
+}
+
+
 .App {
   text-align: center;
   font-family: MyFont;
@@ -29,6 +37,28 @@ body, html, .App {
   height: auto;
 }
 
+.homepage {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+}
+
+#skills-details {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#avatar {
+  border-radius: 25px;
+  margin: 15px;
+}
+
+.navigation {
+  font-weight: bold;
+}
+
 .flex-container {
   display: flex;
 }
@@ -40,5 +70,9 @@ body, html, .App {
 @media screen and (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+  }
+
+  .homepage {
+    width: 95%;
   }
 }
