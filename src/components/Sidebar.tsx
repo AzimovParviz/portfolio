@@ -9,7 +9,7 @@ function Sidebar() {
         <div>
             <Navbar collapseOnSelect expand="md" className="navigation">
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Brand href="#home">Parviz Azimov</Navbar.Brand>
+                <Navbar.Brand href="#home" style={{padding: '10px'}}>Parviz Azimov</Navbar.Brand>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav fill variant="tabs" defaultActiveKey="/home">
                         <Nav.Item>
@@ -21,15 +21,20 @@ function Sidebar() {
                         <Nav.Item>
                             <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link as={Link} to="/contact"></Nav.Link>
-                        </Nav.Item>
+                        <NavDropdown title="Contact me" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="https://www.github.com/AzimovParviz" target="_blank">GitHub</NavDropdown.Item>
+                            <NavDropdown.Item href="https://www.linkedin.com/in/parviz-azimov-28a101153/" target="_blank">LinkedIn</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="mailto:azimovp17@gmail.com">
+                                E-mail: azimovp17@gmail.com
+                            </NavDropdown.Item>
+                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
             <Routes>
                 <Route path="/projects" element={<Projects />} />
-                <Route path="/" element={<Home/>} />
+                <Route path="/" element={<Home />} />
             </Routes>
         </div>
     );

@@ -30,7 +30,7 @@ body, html, .App {
 
 .homepage, .experience, .projects {
   background-color: burlywood;
-  border-radius: 25px;
+  border-radius: 15px;
   opacity: 0.8;
   margin: 40px;
   padding: 10px;
@@ -51,7 +51,7 @@ body, html, .App {
 }
 
 #avatar {
-  border-radius: 25px;
+  border-radius: 15px;
   margin: 15px;
 }
 
@@ -67,6 +67,14 @@ body, html, .App {
   margin: 5px;
 }
 
+footer {
+  margin-top: auto;
+  bottom: 0;
+  position:fixed;
+  text-align: center;
+  padding: 10px;
+}
+
 @media screen and (max-width: 800px) {
   .flex-container {
     flex-direction: column;
@@ -74,5 +82,9 @@ body, html, .App {
 
   .homepage {
     width: 95%;
+  }
+  
+  footer {
+    position: relative;
   }
 }

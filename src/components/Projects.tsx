@@ -40,9 +40,9 @@ function Projects() {
         <div className="projects">
             <div className="flex-container">
                 {projects.map(pr =>
-                    <Card key={pr.id} className="card">
+                    <Card key={pr.id} className="card" style={{color: 'brown',backgroundColor: '#FADBD8'}}>
                         <Card.Body>
-                            <Card.Title>{pr.title}</Card.Title>
+                            <Card.Title style={{fontWeight: 'bold'}}>{pr.title}</Card.Title>
                             <Card.Subtitle>{pr.tech}</Card.Subtitle>
                             <Card.Text>
                                 {pr.description}
