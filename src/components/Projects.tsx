@@ -1,5 +1,12 @@
 import React from "react";
 import { Card } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init({
+    delay: 300//300ms delay so the cards don't appear too quickly
+});
+
 
 type project = {
     readonly id: number,
@@ -32,6 +39,13 @@ const projects: project[] = [
         description: 'CLI app to quickly update your wallpaper using image aggregator gelbooru.com, for that command line efficiency and simplicity',
         url: 'https://github.com/AzimovParviz/boorupaper',
         tech: 'Python 3'
+    },
+    {
+        id: 3,
+        title: 'holodex-cli',
+        description: 'Access holodex.net API from your command line and get a feed of currently live or upcoming streams with variety of filtering options',
+        url: 'https://github.com/AzimovParviz/holodex-cli',
+        tech: 'Python 3'
     }
 ]
 
@@ -40,14 +54,15 @@ function Projects() {
         <div className="projects">
             <div className="flex-container">
                 {projects.map(pr =>
-                    <Card key={pr.id} className="card" style={{color: 'brown',backgroundColor: '#FADBD8'}}>
+                    <Card key={pr.id} className="card" style={{color: 'brown',backgroundColor: '#FADBD8'}} data-aos="fade-down">
                         <Card.Body>
-                            <Card.Title style={{fontWeight: 'bold'}}>{pr.title}</Card.Title>
-                            <Card.Subtitle>{pr.tech}</Card.Subtitle>
+                            <Card.Title style={{fontWeight: 'bold'}}>{pr.title}<hr></hr></Card.Title>
+                            <Card.Subtitle style={{fontStyle: 'italic'}}>{pr.tech}</Card.Subtitle>
                             <Card.Text>
+                                <hr></hr>
                                 {pr.description}
                             </Card.Text>
-                            {pr.url && <Card.Link href={pr.url}>Source code</Card.Link>}
+                            {pr.url && <Card.Link href={pr.url} target='_blank'>Source code</Card.Link>}
                         </Card.Body>
                     </Card>
                 )}
