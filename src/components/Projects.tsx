@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init({
-    delay: 300//300ms delay so the cards don't appear too quickly
+    delay: 0
 });
 
 
@@ -20,7 +20,7 @@ const projects: project[] = [
     {
         id: 0,
         title: 'HR management and new hire training web application',
-        description: 'web application for managing personnel and providing education to new and returning employees in the intranet',
+        description: 'web application for managing personnel and providing education to new and returning employees in the intranet. No source code due to NDA',
         url: '',
         tech: '.NET Core 3, Microsoft SQL, Razor Pages, JavaScript, CSS'
     },
@@ -46,6 +46,13 @@ const projects: project[] = [
         description: 'Access holodex.net API from your command line and get a feed of currently live or upcoming streams with variety of filtering options',
         url: 'https://github.com/AzimovParviz/holodex-cli',
         tech: 'Python 3'
+    },
+    {
+        id: 4,
+        title: 'Portfolio website (you are here)',
+        description: 'Simple portfolio website that tells about my skills, projects and experiences',
+        url: 'https://github.com/AzimovParviz/portfolio',
+        tech: 'React, TypeScript'
     }
 ]
 
@@ -54,7 +61,7 @@ function Projects() {
         <div className="projects">
             <div className="flex-container">
                 {projects.map(pr =>
-                    <Card key={pr.id} className="card" style={{color: 'brown',backgroundColor: '#FADBD8'}} data-aos="fade-down">
+                    <Card key={pr.id} className="card" style={{color: 'brown',backgroundColor: '#FADBD8'}} data-aos="fade-right">
                         <Card.Body>
                             <Card.Title style={{fontWeight: 'bold'}}>{pr.title}<hr></hr></Card.Title>
                             <Card.Subtitle style={{fontStyle: 'italic'}}>{pr.tech}</Card.Subtitle>

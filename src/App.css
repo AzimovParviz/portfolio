@@ -61,6 +61,7 @@ body, html, .App {
 
 .flex-container {
   display: flex;
+  flex-wrap: 1;
 }
 
 .card {
@@ -86,5 +87,11 @@ footer {
   
   footer {
     position: relative;
+  }
+}
+
+@media screen and (min-width: 801px){
+  .card {
+    width: calc(100% * (1/4) - 10px - 1px);
   }
 }
