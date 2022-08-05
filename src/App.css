@@ -61,7 +61,7 @@ body, html, .App {
 
 .flex-container {
   display: flex;
-  flex-wrap: 1;
+  flex-wrap: wrap;
 }
 
 .card {
