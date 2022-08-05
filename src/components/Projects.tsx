@@ -1,12 +1,5 @@
 import React from "react";
 import { Card } from 'react-bootstrap';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init({
-    delay: 0
-});
-
 
 type project = {
     readonly id: number,
@@ -61,7 +54,7 @@ function Projects() {
         <div className="projects">
             <div className="flex-container">
                 {projects.map(pr =>
-                    <Card key={pr.id} className="card" style={{color: 'brown',backgroundColor: '#FADBD8'}} data-aos="fade-right">
+                    <Card key={pr.id} className="card" style={{color: 'brown',backgroundColor: '#FADBD8'}}>
                         <Card.Body>
                             <Card.Title style={{fontWeight: 'bold'}}>{pr.title}<hr></hr></Card.Title>
                             <Card.Subtitle style={{fontStyle: 'italic'}}>{pr.tech}</Card.Subtitle>

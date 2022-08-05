@@ -18,7 +18,6 @@
   src: local('MyFont'), url(./fonts/SourceSansPro-Black.ttf ) format('truetype');
 }
 
-
 .App {
   text-align: center;
   font-family: MyFont;
@@ -26,6 +25,7 @@
 
 body, html, .App {
   background-color: blanchedalmond;
+  overflow-x: hidden;
 }
 
 .homepage, .experience, .projects {
@@ -53,6 +53,7 @@ body, html, .App {
 #avatar {
   border-radius: 15px;
   margin: 15px;
+  animation: zoom-out-left 1s 1;
 }
 
 .navigation {
@@ -66,6 +67,7 @@ body, html, .App {
 
 .card {
   margin: 5px;
+  animation: slide-right 1s 1;
 }
 
 footer {
@@ -94,4 +96,19 @@ footer {
   .card {
     width: calc(100% * (1/4) - 10px - 1px);
   }
+}
+
+@keyframes zoom-out-left {
+  from {padding-left: 100px;}
+  to {padding-left: 0px;}
+}
+
+@keyframes slide-right {
+  from {right: -500px;}
+  to {right: 0px;}
+}
+
+@keyframes slide-down {
+  from {margin-bottom: 500px;}
+  to {margin-bottom: 0px;}
 }
