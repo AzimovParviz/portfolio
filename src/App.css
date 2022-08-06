@@ -45,6 +45,10 @@ body, html, .App {
   margin: auto;
 }
 
+#skills {
+  animation: fade-out 2.5s 1;
+}
+
 #skills-details {
   margin-left: 10px;
   margin-right: 10px;
@@ -111,4 +115,9 @@ footer {
 @keyframes slide-down {
   from {margin-bottom: 500px;}
   to {margin-bottom: 0px;}
+}
+
+@keyframes fade-out {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
