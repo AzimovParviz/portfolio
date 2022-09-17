@@ -10,7 +10,7 @@ function App() {
         <Sidebar />
       </header>
       <footer className='text-center text-lg-start bg-light text-muted'>
-        <a target="_blank" href="https://icons8.com/icon/87836/resume-website">Resume Website icon by Icons8</a>
+        <a target="_blank" rel="noreferrer" href="https://icons8.com/icon/87836/resume-website">Resume Website icon by Icons8</a>
       </footer>
     </div>
   );
