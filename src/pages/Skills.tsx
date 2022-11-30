@@ -7,18 +7,17 @@ function Skills() {
                 <h4>Fullstack developer</h4>
                 <article>
                     <p>React + Material-UI</p>
-		    <p>Node.js/ASP.NET Core 6</p>
-                    <p>SQL</p>
+		    <p>Node.js/ASP.NET Core 6/Spring Boot</p>
+		    <p>SQL/MongoDB</p>
                     <p>Python</p>
                 </article>
                 <hr></hr>
                 <div id="skills-details">
                     <article>
 
-                        <p>Hooks, state management (Redux), frontend styling(SCSS)</p>
                         <p>Express.js, API design and testing</p>
-                        <p>Hooks, state management (Redux, Redux-toolkit, Redux-thunk, frontend styling</p>
-                        <p>Express.js, APIs</p>
+                        <p>Hooks, state management (Redux, Redux-toolkit, frontend styling (CSS, Material-UI)</p>
+                        <p>Express.js, REST API design</p>
                     </article>
                 </div>
             </div>
