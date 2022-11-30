@@ -1,8 +1,8 @@
 import React from "react";
 import { Nav, NavDropdown, Navbar } from 'react-bootstrap';
 import { Routes, Route, Link } from 'react-router-dom';
-import Projects from "./Projects";
-import Home from "./Home";
+import Projects from "../pages/Projects";
+import Home from "../pages/Home";
 
 function Sidebar() {
     return (
