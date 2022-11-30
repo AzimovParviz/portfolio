@@ -14,7 +14,7 @@ function Skills() {
                 <hr></hr>
                 <div id="skills-details">
                     <article>
-                        <p>Hooks, state management, frontend styling</p>
+                        <p>Hooks, state management (Redux, Redux-toolkit, Redux-thunk, frontend styling</p>
                         <p>Express.js, APIs</p>
                         <p>Database administration, Entity Framework</p>
                         <p>Workplace automation, webscraping</p>
