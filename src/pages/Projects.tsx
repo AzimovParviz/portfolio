@@ -5,20 +5,19 @@ type project = {
   readonly id: number;
   title: string;
   description: string;
-  url: string;
+  url?: string;
   tech: string;
 };
 
 const projects: project[] = [
   {
     id: 0,
-    title: "HR management and new hire training web application",
+    title: "Fullstack library application",
     description:
-      "web application for managing personnel and providing education to new and returning employees in the intranet. No source code due to NDA",
-    url: "n/a",
-    tech: ".NET Core 3, Microsoft SQL, Razor Pages, JavaScript, CSS",
+      "A fullstack app with OAuth2 using React, TypeScript and Node.JS. A library where you can browse, return and borrow books. Also includes an admin panel",
+    url: "https://github.com/AzimovParviz/fullstack-library-app",
+    tech: "React, TypeScript, Node.js, Redux-toolkit, Mongoose, Passport",
   },
-
   {
     id: 1,
     title: "ASP.NET 6 minimal web API with PostgreSQL db",
@@ -60,13 +59,14 @@ const projects: project[] = [
     url: "https://github.com/AzimovParviz/AzureBlobs",
     tech: "ASP.NET 6, MySQL, Azure",
   },
+
   {
-	  id: 6,
-	  title: "Fullstack library application",
-	  description: "A fullstack app with OAuth2 using React, TypeScript and Node.JS. A library where you can browse, return and borrow books. Also includes an admin panel",
-	  url: "https://github.com/AzimovParviz/fullstack-library-app",
-	  tech: "React, TypeScript, Node.js, Redux-toolkit, Mongoose, Passport"
-  }
+    id: 6,
+    title: "HR management and new hire training web application",
+    description:
+      "web application for managing personnel and providing education to new and returning employees in the intranet. No source code due to NDA",
+    tech: ".NET Core 3, Microsoft SQL, Razor Pages, JavaScript, CSS",
+  },
 ];
 
 function Projects() {
@@ -105,4 +105,3 @@ function Projects() {
 }
 
 export default Projects;
-
