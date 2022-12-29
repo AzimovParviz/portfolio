@@ -31,7 +31,7 @@ const projects: project[] = [
     id: 2,
     title: "boorupaper",
     description:
-      "CLI app to quickly update your wallpaper using image aggregator gelbooru.com, for that command line efficiency and simplicity",
+      "CLI app to quickly update your wallpaper on Linux (Gnome, KDE, Late, Cinammon DE) and MacOS using image aggregator gelbooru.com, for that command line efficiency and simplicity",
     url: "https://github.com/AzimovParviz/boorupaper",
     tech: "Python 3",
   },
@@ -53,7 +53,7 @@ const projects: project[] = [
   },
   {
     id: 5,
-    title: ".NET Azure blobs",
+    title: ".NET API + Azure blobs",
     description:
       ".NET backend that stores data in azure storage and a mysql database",
     url: "https://github.com/AzimovParviz/AzureBlobs",

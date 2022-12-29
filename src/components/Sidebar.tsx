@@ -3,6 +3,7 @@ import { Nav, NavDropdown, Navbar } from 'react-bootstrap';
 import { Routes, Route, Link } from 'react-router-dom';
 import Projects from "../pages/Projects";
 import Home from "../pages/Home";
+import Experience from "../pages/Experience";
 
 function Sidebar() {
     return (
@@ -35,6 +36,7 @@ function Sidebar() {
             <Routes>
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/" element={<Home />} />
+                <Route path="/experience" element={<Experience />} />
             </Routes>
         </div>
     );
