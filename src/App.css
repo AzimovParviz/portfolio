@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'MyFont';
-  src: local('MyFont'), url(./fonts/SourceSansPro-Regular.ttf ) format('truetype');
+  font-family: "MyFont";
+  src: local("MyFont"),
+    url(./fonts/SourceSansPro-Regular.ttf) format("truetype");
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
 
 @font-face {
-  font-family: 'MyFont';
+  font-family: "MyFont";
   font-weight: 900;
-  src: local('MyFont'), url(./fonts/SourceSansPro-Bold.ttf ) format('truetype');
+  src: local("MyFont"), url(./fonts/SourceSansPro-Bold.ttf) format("truetype");
 }
 
-
 @font-face {
-  font-family: 'MyFont';
+  font-family: "MyFont";
   font-weight: 900;
-  src: local('MyFont'), url(./fonts/SourceSansPro-Black.ttf ) format('truetype');
+  src: local("MyFont"), url(./fonts/SourceSansPro-Black.ttf) format("truetype");
 }
 
 .App {
@@ -23,12 +23,16 @@
   font-family: MyFont;
 }
 
-body, html, .App {
+body,
+html,
+.App {
   background-color: blanchedalmond;
   overflow-x: hidden;
 }
 
-.homepage, .experience, .projects {
+.homepage,
+.experience,
+.projects {
   background-color: burlywood;
   border-radius: 15px;
   opacity: 0.8;
@@ -82,7 +86,7 @@ body, html, .App {
 footer {
   margin-top: auto;
   bottom: 0;
-  position:fixed;
+  position: fixed;
   text-align: center;
   padding: 10px;
 }
@@ -95,34 +99,51 @@ footer {
   .homepage {
     width: 95%;
   }
-  
+
   footer {
     position: relative;
   }
 }
 
-@media screen and (min-width: 801px){
+@media screen and (min-width: 801px) {
   .card {
-    width: calc(100% * (1/4) - 10px - 1px);
+    width: calc(100% * (1 / 4) - 10px - 1px);
   }
 }
 
 @keyframes zoom-out-left {
-  0% {transform: scale(0.3)}
-  100% {transform: scale(1.0)}
+  0% {
+    transform: scale(0.3);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @keyframes slide-right {
-  0% {transform: translateX(-1000px);}
-  100% {transform: translateX(0px);}
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 @keyframes slide-down {
-	0% {transform: translateY(-1000px);}
-	100% {transform: translateY(0px);}
+  0% {
+    transform: translateY(-1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @keyframes fade-out {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
+
