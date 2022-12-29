@@ -75,20 +75,18 @@ function Projects() {
       <div className="flex-container">
         {projects.map((pr) => (
           <Card
-            key={pr.url}
+            key={pr.title}
             className="card"
             style={{ color: "brown", backgroundColor: "#FADBD8" }}
           >
             <Card.Body>
               <Card.Title style={{ fontWeight: "bold" }}>
                 {pr.title}
-                <hr></hr>
               </Card.Title>
               <Card.Subtitle style={{ fontStyle: "italic" }}>
                 {pr.tech}
               </Card.Subtitle>
               <Card.Text>
-                <hr></hr>
                 {pr.description}
               </Card.Text>
               {pr.url && (
