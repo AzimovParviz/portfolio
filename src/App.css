@@ -69,9 +69,14 @@ body, html, .App {
   flex-wrap: wrap;
 }
 
-.card {
+.project-card {
   margin: 5px;
   animation: slide-right 1s 1;
+}
+
+.experience-card {
+  margin: 5px;
+  animation: slide-down 1s 1;
 }
 
 footer {
@@ -110,6 +115,11 @@ footer {
 @keyframes slide-right {
   0% {transform: translateX(-1000px);}
   100% {transform: translateX(0px);}
+}
+
+@keyframes slide-down {
+	0% {transform: translateY(-1000px);}
+	100% {transform: translateY(0px);}
 }
 
 @keyframes fade-out {

@@ -1,4 +1,3 @@
-import React from "react";
 import { Card } from "react-bootstrap";
 
 type project = {
@@ -76,19 +75,17 @@ function Projects() {
         {projects.map((pr) => (
           <Card
             key={pr.title}
-            className="card"
+            className="project-card"
             style={{ color: "brown", backgroundColor: "#FADBD8" }}
           >
             <Card.Body>
-              <Card.Title style={{ fontWeight: "bold" }}>
-                {pr.title}
-              </Card.Title>
+              <Card.Title style={{ fontWeight: "bold" }}>{pr.title}</Card.Title>
+              <hr></hr>
               <Card.Subtitle style={{ fontStyle: "italic" }}>
                 {pr.tech}
               </Card.Subtitle>
-              <Card.Text>
-                {pr.description}
-              </Card.Text>
+              <hr></hr>
+              <Card.Text>{pr.description}</Card.Text>
               {pr.url && (
                 <Card.Link href={pr.url} target="_blank">
                   Source code
