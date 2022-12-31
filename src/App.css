@@ -84,11 +84,18 @@ html,
 }
 
 footer {
+  height: 30px;
+  background-color: white;
+  opacity: 0.6;
   margin-top: auto;
   bottom: 0;
   position: fixed;
   text-align: center;
   padding: 10px;
+}
+
+footer:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 800px) {
@@ -146,4 +153,3 @@ footer {
     opacity: 1;
   }
 }
-

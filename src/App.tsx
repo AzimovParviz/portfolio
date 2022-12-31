@@ -8,7 +8,7 @@ function App() {
       <header>
         <Sidebar />
       </header>
-      <footer className='text-center text-lg-start bg-light text-muted'>
+      <footer >
         <a target="_blank" rel="noreferrer" href="https://icons8.com/icon/87836/resume-website">Resume Website icon by Icons8</a>
       </footer>
     </div>
