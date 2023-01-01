@@ -56,7 +56,7 @@ function Experience() {
       <div className="flex-container">
         {experiences.map((exp) => (
           <Card
-            key={exp.title}
+            key={exp.company}
             className="experience-card"
             style={{ color: "brown", backgroundColor: "#FADBD8" }}
           >
@@ -75,7 +75,7 @@ function Experience() {
               <hr></hr>
               <Card.Text>
                 {exp.tech.map((t) => (
-                  <p>{t}</p>
+                  <span key={t}>{t}</span>
                 ))}
               </Card.Text>
             </Card.Body>
