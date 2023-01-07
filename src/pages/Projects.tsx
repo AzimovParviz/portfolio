@@ -66,6 +66,14 @@ const projects: project[] = [
       "web application for managing personnel and providing education to new and returning employees in the intranet. No source code due to NDA",
     tech: ".NET Core 3, Microsoft SQL, Razor Pages, JavaScript, CSS",
   },
+  {
+    id: 7,
+    title: "A library backend written in Java using Spring Boot framework",
+    description:
+      "A REST API similar to the Node.js found in the Full stack library application, uses OAuth2 through Google to authenticate requests. Users can return and borrow books and get information about them. Admins can browse , update and delete users and their information",
+    tech: "Java 17, Spring Boot framework 2.7.5, PostgreSQL",
+    url: "https://github.com/AzimovParviz/SpringBootKirjasto",
+  },
 ];
 
 function Projects() {
