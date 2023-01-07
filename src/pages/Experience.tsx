@@ -75,7 +75,7 @@ function Experience() {
               <hr></hr>
               <Card.Text>
                 {exp.tech.map((t) => (
-                  <span key={t}>{t}</span>
+                  <p key={t}>{t}</p>
                 ))}
               </Card.Text>
             </Card.Body>

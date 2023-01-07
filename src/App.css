@@ -32,7 +32,8 @@ html,
 
 .homepage,
 .experience,
-.projects {
+.projects,
+.about-me {
   background-color: burlywood;
   border-radius: 15px;
   opacity: 0.8;
@@ -47,6 +48,10 @@ html,
   flex-direction: row;
   width: 70%;
   margin: auto;
+}
+
+.about-me article{
+	text-align: left;
 }
 
 #skills {
@@ -113,7 +118,7 @@ footer:hover {
 }
 
 @media screen and (min-width: 801px) {
-  .card {
+  .project-card, .experience-card {
     width: calc(100% * (1 / 4) - 10px - 1px);
   }
 }
