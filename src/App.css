@@ -60,7 +60,7 @@ html,
 
 #avatar {
   border-radius: 15px;
-  margin: 15px;
+  margin-left: 15px;
   animation: zoom-out-left 1s 1;
 }
 

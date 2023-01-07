@@ -5,7 +5,7 @@ function Home() {
     return (
         <div className="homepage">
             <Skills />
-            <img id="avatar" src="/pfp.jpg"  alt="" width={'30%'} height={'30%'}/>
+            <img id="avatar" src="/avi.jpg"  alt="" width={'30%'} height={'30%'}/>
         </div>
     )
 }
