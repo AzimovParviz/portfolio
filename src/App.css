@@ -50,8 +50,9 @@ html,
   margin: auto;
 }
 
-.about-me article{
-	text-align: left;
+.about-me article {
+  text-align: left;
+  animation: fade-out 2.5s 1;
 }
 
 #skills {
@@ -64,6 +65,7 @@ html,
 }
 
 #avatar {
+  scale: 0.92;
   border-radius: 15px;
   margin-left: 15px;
   animation: zoom-out-left 1s 1;
@@ -118,7 +120,8 @@ footer:hover {
 }
 
 @media screen and (min-width: 801px) {
-  .project-card, .experience-card {
+  .project-card,
+  .experience-card {
     width: calc(100% * (1 / 4) - 10px - 1px);
   }
 }

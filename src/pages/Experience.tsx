@@ -1,13 +1,7 @@
 import { Card } from "react-bootstrap";
+import {experience} from "../types";
 
-type experience = {
-  id: number;
-  company: string;
-  title: string;
-  duration: string;
-  description: string;
-  tech: string[];
-};
+
 
 const experiences: experience[] = [
   {

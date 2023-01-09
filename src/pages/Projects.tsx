@@ -1,12 +1,5 @@
 import { Card } from "react-bootstrap";
-
-type project = {
-  readonly id: number;
-  title: string;
-  description: string;
-  url?: string;
-  tech: string;
-};
+import {project} from "../types";
 
 const projects: project[] = [
   {
