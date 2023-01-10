@@ -4,7 +4,7 @@ import {project} from "../types";
 const projects: project[] = [
   {
     id: 0,
-    title: "Fullstack library application",
+    title: "Full stack library application",
     description:
       "A fullstack app with OAuth2 using React, TypeScript and Node.JS. A library where you can browse, return and borrow books. Also includes an admin panel",
     url: "https://github.com/AzimovParviz/fullstack-library-app",

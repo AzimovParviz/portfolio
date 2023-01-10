@@ -2,7 +2,7 @@ function Skills() {
   return (
     <div id="skills">
       <h2 style={{ fontWeight: "bold" }}>Parviz Azimov</h2>
-      <h4>Fullstack developer</h4>
+      <h4>Full stack developer</h4>
       <article>
         <p>React + Material-UI</p>
         <p>Node.js/ASP.NET Core 6/Spring Boot</p>

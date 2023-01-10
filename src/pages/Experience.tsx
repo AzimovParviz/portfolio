@@ -23,10 +23,10 @@ const experiences: experience[] = [
   {
     id: 1,
     company: "Integrify Oy",
-    title: "Fullstack trainee",
+    title: "Full stack trainee",
     duration: "6 months",
     description:
-      "Studying Full-stack + DevOps + Cloud for 6 months with various projects and tests done both solo and in group to test and refine skills and technologies learned",
+      "Studying Full stack + DevOps + Cloud for 6 months with various projects and tests done both solo and in group to test and refine skills and technologies learned",
     tech: [
       "JavaScript",
       "TypeScript",
