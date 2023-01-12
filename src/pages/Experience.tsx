@@ -1,11 +1,8 @@
 import { Card } from "react-bootstrap";
-import {experience} from "../types";
-
-
+import { experience } from "../types";
 
 const experiences: experience[] = [
   {
-    id: 0,
     company: "Avenla Oy",
     title: ".NET developer",
     duration: "6 months",
@@ -21,7 +18,6 @@ const experiences: experience[] = [
     ],
   },
   {
-    id: 1,
     company: "Integrify Oy",
     title: "Full stack trainee",
     duration: "6 months",

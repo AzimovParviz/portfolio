@@ -1,5 +1,4 @@
 export type project = {
-	  readonly id: number;
 	  title: string;
 	  description: string;
 	  url?: string;
@@ -7,7 +6,6 @@ export type project = {
 };
 
 export type experience = {
-	  id: number;
 	  company: string;
 	  title: string;
 	  duration: string;
