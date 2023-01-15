@@ -14,7 +14,7 @@ function Skills() {
         <article>
           <p>Express.js, API design and testing</p>
           <p>Hooks, state management (Redux, Redux-toolkit)</p>
-          <p>Frontend styling (CSS, Material-UI)</p>
+          <p>Frontend styling (CSS, Material-UI, Bootstrap)</p>
         </article>
       </div>
     </div>

@@ -7,7 +7,7 @@ const projects: project[] = [
     description:
       "A fullstack app with OAuth2 using React, TypeScript and Node.JS. A library where you can browse, return and borrow books. Also includes an admin panel",
     url: "https://github.com/AzimovParviz/fullstack-library-app",
-    tech: "React, TypeScript, Node.js, Redux-toolkit, Mongoose, Passport",
+    tech: "React, TypeScript, Node.js, Redux-toolkit, Material-UI, Mongoose, Passport",
   },
   {
     title: "ASP.NET 6 minimal web API with PostgreSQL db",
@@ -28,7 +28,7 @@ const projects: project[] = [
     description:
       "Simple portfolio website that tells about my skills, projects and experiences",
     url: "https://github.com/AzimovParviz/portfolio",
-    tech: "React, TypeScript",
+    tech: "React, TypeScript, React-Bootstrap",
   },
   {
     title: ".NET API + Azure blobs",
