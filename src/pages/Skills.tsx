@@ -6,7 +6,7 @@ function Skills() {
       <article>
         <p>JavaScript/TypeScript</p>
         <p>React + Material-UI</p>
-        <p>Node.js/.NET Framework/Spring Boot</p>
+        <p>Node.js/ASP.NET/Spring Boot</p>
         <p>SQL/MongoDB</p>
         <p>Python</p>
       </article>
@@ -17,7 +17,7 @@ function Skills() {
           <p>Unit testing</p>
           <p>Hooks, state management (Redux, Redux-toolkit)</p>
           <p>Frontend styling (CSS, Material-UI, Bootstrap)</p>
-	      <p>Photoshop</p>
+          <p>Photoshop</p>
         </article>
       </div>
     </div>

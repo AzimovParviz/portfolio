@@ -52,12 +52,20 @@ const projects: project[] = [
     url: "https://github.com/AzimovParviz/SpringBootKirjasto",
   },
   {
-	  title: "A web application to port Mangadex follow list entries into AniList manga list",
-	  description:
-	  "Allows user to log into their Mangadex and AniList accounts through OAuth2 and using normal credentials. Then they can fetch their scores and list entries from Mangadex to port them to AniList",
-	  tech: "React, TypeScript, Redux-toolkit",
-	  url: "https://github.com/AzimovParviz/mangadex-anilist-convert"
-  }
+    title:
+      "A web application to port Mangadex follow list entries into AniList manga list",
+    description:
+      "Allows user to log into their Mangadex and AniList accounts through OAuth2 and using normal credentials. Then they can fetch their scores and list entries from Mangadex to port them to AniList",
+    tech: "React, TypeScript, Redux-toolkit",
+    url: "https://github.com/AzimovParviz/mangadex-anilist-convert",
+  },
+  {
+    title: "Finnish ID verificator + Currency exchange API",
+    description:
+      "Allows users to verifiy Finnish IDs using the official formula for verification. Also runs a currency exchange endpoint for SEK, USD and EUR which updates every hour",
+    tech: "Java, Spring Boot, Quartz, Mockito",
+    url: "https://github.com/AzimovParviz/Spring-Quartz-practice",
+  },
 ];
 
 function Projects() {
