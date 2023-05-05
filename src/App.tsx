@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           Resume Website icon by Icons8
         </a>
       </footer>
+	  <Analytics />
     </div>
   );
 }
