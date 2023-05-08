@@ -2,7 +2,7 @@ export type project = {
 	  title: string;
 	  description: string;
 	  url?: string;
-	  tech: string;
+	  tech: string[];
 };
 
 export type experience = {
