@@ -19,10 +19,10 @@ const experiences: experience[] = [
   },
   {
     company: "Integrify Oy",
-    title: "Full stack trainee",
+    title: "Full stack developer",
     duration: "6 months",
     description:
-      "Studying Full stack + DevOps + Cloud for 6 months with various projects and tests done both solo and in group to test and refine skills and technologies learned",
+      "MERN stack projects. Worked with containers. Received training on AWS (EC2, Lambda, DynamoDB, Amazon IAM) and Azure",
     tech: [
       "JavaScript",
       "TypeScript",
@@ -31,11 +31,10 @@ const experiences: experience[] = [
       "MongoDB",
       "React",
       "Java",
-      "Springboot",
+      "Spring Boot",
       "Docker",
       "AWS",
       "Azure",
-      "Testing",
     ],
   },
 ];
