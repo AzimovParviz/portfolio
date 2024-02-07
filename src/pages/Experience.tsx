@@ -37,6 +37,19 @@ const experiences: experience[] = [
       "Azure",
     ],
   },
+  {
+	  company: "QADental / Suomen kotilääkäripalvelut",
+	  title: "Software Developer",
+	  duration: "1 year",
+	  description: "Working on transitioning a Drupal 7 website to the newest Drupal 10 version. Reimplementation of a custom theme, using Twig templates, JavaScript and Tailwind. Implementation of various functionality such as online exams and a Q&A forum through custom Drupal modules, written in PHP.",
+	  tech: [
+		  "PHP",
+		  "JavaScript",
+		  "Docker",
+		  "Linux",
+		  "MariaDB"
+	  ],
+  },
 ];
 
 function Experience() {
