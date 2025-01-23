@@ -7,7 +7,15 @@ const projects: project[] = [
     description:
       "A fullstack app with OAuth2 using React, TypeScript and Node.JS. A library where you can browse, return and borrow books. Also includes an admin panel",
     url: "https://github.com/AzimovParviz/fullstack-library-app",
-    tech: ["React, ", "TypeScript, ", "Node.js, ", "Redux-toolkit, ", "Material-UI, ", "Mongoose, ", "Passport"],
+    tech: [
+      "React, ",
+      "TypeScript, ",
+      "Node.js, ",
+      "Redux-toolkit, ",
+      "Material-UI, ",
+      "Mongoose, ",
+      "Passport",
+    ],
   },
   {
     title: "ASP.NET 6 minimal web API with PostgreSQL db",
@@ -42,7 +50,13 @@ const projects: project[] = [
     title: "HR management and new hire training web application",
     description:
       "web application for managing personnel and providing education to new and returning employees in the intranet. Includes employee management dashboard, individual accounts with various levels of access (roles). Courses and lessons for the users with performance statistics tracking and grading. Admin functionality to manage courses and users using the admin dashboard. No source code due to NDA",
-    tech: [".NET Core 3, ", "Microsoft SQL, ", "Razor Pages, ", "JavaScript, ", "CSS"],
+    tech: [
+      ".NET Core 3, ",
+      "Microsoft SQL, ",
+      "Razor Pages, ",
+      "JavaScript, ",
+      "CSS",
+    ],
   },
   {
     title: "A library backend written in Java using Spring Boot framework",

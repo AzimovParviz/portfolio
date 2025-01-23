@@ -5,7 +5,8 @@ function Skills() {
       <h4>Full stack developer</h4>
       <article>
         <p>JavaScript/TypeScript</p>
-	  	<p>PHP</p>
+        <p>PHP</p>
+        <p>Drupal</p>
         <p>React + Material-UI</p>
         <p>Node.js/ASP.NET/Spring Boot</p>
         <p>SQL/MongoDB</p>
@@ -15,7 +16,7 @@ function Skills() {
       <div id="skills-details">
         <article>
           <p>Express.js, API design</p>
-		  <p>Drupal websites (module development, custom themes, migration)</p>
+          <p>Drupal websites (module development, custom themes, migration)</p>
           <p>Unit testing</p>
           <p>Hooks, state management (Redux, Redux-toolkit)</p>
           <p>Frontend styling (CSS, Material-UI, Bootstrap)</p>

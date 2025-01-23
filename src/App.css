@@ -1,6 +1,7 @@
 @font-face {
   font-family: "MyFont";
-  src: local("MyFont"),
+  src:
+    local("MyFont"),
     url(./fonts/SourceSansPro-Regular.ttf) format("truetype");
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
@@ -9,13 +10,17 @@
 @font-face {
   font-family: "MyFont";
   font-weight: 900;
-  src: local("MyFont"), url(./fonts/SourceSansPro-Bold.ttf) format("truetype");
+  src:
+    local("MyFont"),
+    url(./fonts/SourceSansPro-Bold.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "MyFont";
   font-weight: 900;
-  src: local("MyFont"), url(./fonts/SourceSansPro-Black.ttf) format("truetype");
+  src:
+    local("MyFont"),
+    url(./fonts/SourceSansPro-Black.ttf) format("truetype");
 }
 
 .App {

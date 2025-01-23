@@ -18,7 +18,7 @@ function App() {
           Resume Website icon by Icons8
         </a>
       </footer>
-	  <Analytics />
+      <Analytics />
     </div>
   );
 }
