@@ -9,13 +9,20 @@ const experiences: experience[] = [
     description:
       "Worked on a full stack web application for the company's client, utilized all of the tech listed below. I was responsible for front-end, back-end and the database",
     tech: [
-      "ASP.NET, ",
-      "SQL, ",
-      "Docker, ",
-      "JavaScript, ",
-      "Razor Pages, ",
+      "ASP.NET",
+      "SQL",
+      "Docker",
+      "JavaScript",
+      "Razor Pages",
       "Powershell",
     ],
+  },
+  {
+    company: "Career break",
+    title: "Personal reason",
+    duration: "06.2020 - 06.2022",
+    description: "Part time work outside of tech",
+    tech: [],
   },
   {
     company: "Integrify Oy",
@@ -24,16 +31,16 @@ const experiences: experience[] = [
     description:
       "MERN stack projects. Worked with containers. Received training on AWS (EC2, Lambda, DynamoDB, Amazon IAM) and Azure",
     tech: [
-      "JavaScript, ",
-      "TypeScript, ",
-      "HTML, ",
-      "CSS, ",
-      "MongoDB, ",
-      "React, ",
-      "Java, ",
-      "Spring Boot, ",
-      "Docker, ",
-      "AWS, ",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "MongoDB",
+      "React",
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "AWS",
       "Azure",
     ],
   },
@@ -71,8 +78,8 @@ function Experience() {
               <Card.Text>{exp.description}</Card.Text>
               <hr></hr>
               <Card.Text>
-                {exp.tech.map((t) => (
-                  <span key={t}>{t}</span>
+                {exp.tech.map((t, i) => (
+					<span key={t}>{t}{i < exp.tech.length - 1 ? ", " : ""}</span>
                 ))}
               </Card.Text>
             </Card.Body>
